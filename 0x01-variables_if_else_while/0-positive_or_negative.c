@@ -1,11 +1,11 @@
 #include <stdio.h>
+
+/* betty style doc for function main goes there */
 int main(void)
 {
-	/*
-	 *I check the value of the varible n
-	 * */
 
 	int n = 0;
+
 	scanf("%d", &n);
 
 	if (n > 0)
@@ -16,7 +16,7 @@ int main(void)
 		printf("%d is zero\n", n);
 	} else if (n < 0)
 	{
-		printf("-%d is negative\n", n);
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
