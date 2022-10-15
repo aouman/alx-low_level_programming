@@ -3,12 +3,16 @@ int main(void)
 {
 	int n = 0;
 	scanf("%d", &n);
-	if(n>0){
-		printf("is positif\n");
-	}else if(n==0){
+
+	if(n > 0)
+	{
+		printf("is positive\n");
+	}else if(n == 0)
+	{
 		printf("is zero\n");
-	}else if (n<0) {
+	}else if (n < 0)
+	{
 		printf("is negative\n");
 	}
-	return 0;
+	return (0);
 }
