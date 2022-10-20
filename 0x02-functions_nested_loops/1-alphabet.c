@@ -1,17 +1,17 @@
-#include "main.h"
-#include <stdio.h>
+#include "main.c"
+
 /**
  * main - check the code
  *
  * Return: Always 0.
  */
+int print_alphabet(void)
 
-int main(void)
 {
-	char a;
 
-	for (a = 'a'; a <= 'z'; a++)
-	putchar(a);
+	char n;
+
+	for (n = 'a'; n <= 'z'; n++)
+	putchar(n);
 	putchar('\n');
-	return (0);
 }
