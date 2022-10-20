@@ -4,32 +4,20 @@
  * main - check the code for Holberton School students.
  *
  * Return: Always 0.
- *
- */
-
-void test_islower(int n)
-
-{
-
-	int r;
-
-	r = islower('n');
-	putchar(r + '0');
-	putchar('\n');
-}
-
-/**
- *
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
  */
 
 int main(void)
 
 {
+	int r;
 
-	test_islower('H');
+	r = islower('H');
+	putchar(r + '0');
+	r = islower('o');
+	putchar(r + '0');
+	r = islower(108);
+	putchar(r + '0');
+	putchar('\n');
 	return (0);
 
 }
