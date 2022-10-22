@@ -1,23 +1,19 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * main - check the code for Holberton School students.
- *
+ * main - check the code.
  * Return: Always 0.
  */
-
 int main(void)
-
 {
 	int r;
 
-	r = islower('H');
-	putchar(r + '0');
-	r = islower('o');
-	putchar(r + '0');
-	r = islower(108);
-	putchar(r + '0');
-	putchar('\n');
+	r = _islower('H');
+    	_putchar(r + '0');
+        r = _islower('o');
+	_putchar(r + '0');
+        r = _islower(108);
+	_putchar(r + '0');
+        _putchar('\n');
 	return (0);
-
 }
